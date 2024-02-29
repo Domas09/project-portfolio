@@ -99,9 +99,9 @@ figure figcaption{
 #about-section{
     margin-right:auto;
     margin-left:auto;
-    margin-top: 60%;
+    margin-top: 50%;
     text-align: center;
-    width:60%;
+    width:80%;
 }
 /* about section title */
 h2{
@@ -115,20 +115,29 @@ h2{
 #about-section p{
     font-family: monospace;
     color: var(--third);
+    font-size:200%;
     text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
 }
-
+#spotlight-section{
+    margin-top: 50%;
+}
 /* spotlight image */
 #spotlight-image{
-    margin-top: 50%;
     margin-right:auto;
     margin-left:auto;
     display:block;
     width:60%
 }
+
+.project-left{
+    margin-top:50%;
+}
+
+.project-right{
+    margin-top:50%;
+}
+
 /* project images */
 .link-images{
-    margin-top:100%;
-    display:block;
     width:40%;
 }
