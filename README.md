@@ -8,14 +8,6 @@ My project portfolio to be seen by future employers
 - It gives my potential employers an easy way to access eveything im working on in a clear and concise manner.
 - I learn a lot about formatting pages using CSS.
 
-
-## Usage
-
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
 ## Credits
 
 - Helpful links I used: 
@@ -29,4 +21,8 @@ N/A
 
 ## Screenshot
 
+![alt website screenshot](./assests/images/)
+
 ## Link
+
+https://domas09.github.io/project-portfolio/
