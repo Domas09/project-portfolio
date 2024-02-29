@@ -11,8 +11,9 @@
 *{
     box-sizing: border-box;
     font-size: 100%;
+    scroll-behavior:smooth;
 }
-/* background */
+/* background image*/
 body{
     background-image: url("../images/Background.png");
     background-repeat: no-repeat;
@@ -20,6 +21,7 @@ body{
     background-position: center;
     background-size:cover;
 }
+/* main background color */
 #background{
     margin:auto;
     width:90%;
@@ -99,12 +101,13 @@ figure figcaption{
 #about-section{
     margin-right:auto;
     margin-left:auto;
-    margin-top: 50%;
+    margin-top: 20%;
     text-align: center;
     width:80%;
 }
 /* about section title */
 h2{
+    padding: 1rem;
     font-family: monospace;
     margin:10px;
     font-size: 500%;
@@ -113,31 +116,104 @@ h2{
 }
 /* about section small text */
 #about-section p{
+    padding: 1rem;
     font-family: monospace;
     color: var(--third);
-    font-size:200%;
+    font-size:300%;
     text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
 }
+/* spotlight section */
 #spotlight-section{
-    margin-top: 50%;
+    margin-top: 20%;
 }
 /* spotlight image */
 #spotlight-image{
     margin-right:auto;
     margin-left:auto;
     display:block;
-    width:60%
+    width:60%;
+    border-radius: 1rem;
+    border:solid var(--fifth);
+    transition: all 1s ease-in-out;
+    box-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
 }
-
-.project-left{
-    margin-top:50%;
+/* spotlight image highlight animation */
+#spotlight-image:hover{
+    width:70%;
+    border: solid var(--primary);
 }
-
-.project-right{
-    margin-top:50%;
+/* spotlight header text */
+#spotlight-section h3{
+    color: var(--third);
+    text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
+    text-align: center;
+    padding:3rem;
+    font-family:monospace;
+    font-size:400%;
+}
+/* spotlight footer text */
+#spotlight-section p{
+    color: var(--third);
+    text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
+    padding: 2rem;
+    font-family: monospace;
+    font-size: 250%;
+    text-align: center;
+}
+/* row with tree and website */
+#projects-section section{
+    margin-top:20%;
+    display:flex;
+    justify-content: space-around;
+}
+/* single tree image */
+.tree{
+    width:80%;
 }
 
 /* project images */
 .link-images{
-    width:40%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:80%;
+    border-radius: 1rem;
+    border:solid var(--fifth);
+    transition: all 1s ease-in-out;
+    box-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
 }
+/* project images hover animation */
+.link-images:hover{
+    width:90%;
+    border: solid var(--primary);
+}
+
+/* project header text */
+#projects-section section div h3{
+    color: var(--third);
+    text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
+    text-align: center;
+    padding:2rem;
+    font-family:monospace;
+    font-size:300%;
+}
+/* project footer text */
+#projects-section section div p{
+    text-align: center;
+    color: var(--third);
+    text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
+    padding: 1.5rem;
+    font-family: monospace;
+    font-size: 175%;
+}
+
+
+/* filler trees */
+.forest-filler{
+    margin-top: 10%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
