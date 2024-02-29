@@ -21,7 +21,7 @@ N/A
 
 ## Screenshot
 
-![alt website screenshot](./assests/images/)
+![alt website screenshot](./assests/images/Screenshot%20(6).png)
 
 ## Link
 
