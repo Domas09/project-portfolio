@@ -14,6 +14,15 @@
 }
 /* background */
 body{
+    background-image: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+#background{
+    margin:auto;
+    width:90%;
     background-color: var(--secondary);
 }
 /* Name */
@@ -21,26 +30,35 @@ h1{
     font-family: monospace;
     font-size: 1500%;
     color: var(--third);
-    text-align: right;
+    text-align: center;
     text-shadow: 0.4rem 0.4rem 0.4rem var(--shadow);
     padding: 10px;
-    margin-right: 1rem;
+    margin-top: 6rem;
 }
 /* navbar */
 nav{
-    
-    border: solid var(--primary);
-    background-color: var(--fifth);
-    margin-right:1rem;
-    border-radius: 1rem;
+    margin-top: 2rem;
+    position: fixed;
+    top:0;
+    width:80%;
+    z-index: 1;
 }
-
+/* list items */
+ul{
+    background-image: url(../images/waterfall-trail-6156770_960_720.png);
+    background-size: 100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    float:right;
+    padding: 2rem
+}
 /* navbar elements*/
 li{
+    display:inline;
     font-family: monospace;
     text-decoration: none;
-    padding: 10px;
-    margin-right: 1rem
+    margin-right: 1rem;
+
 }
 /* navbar text */
 .nav-bar{
@@ -58,27 +76,32 @@ li{
 }
 /* picture container */
 figure{
-
+    margin-top: 5%;
 }
 /* picture of me */
 figure img{
-    display: block;
-    width:20%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
     clip-path: circle(40%);
+    
 }
 /* picture of me text */
 figure figcaption{
     font-family: monospace;
-    font-size: 80%;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%)
+    font-size: 300%;
+    color:var(--third);
+    text-shadow: 0.1rem 0.1rem 0.3rem var(--shadow);
+    text-align: center;
 }
 /* about section */
 #about-section{
-    margin-top: 100%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 60%;
     text-align: center;
+    width:60%;
 }
 /* about section title */
 h2{
@@ -91,10 +114,15 @@ h2{
 /* about section small text */
 #about-section p{
     font-family: monospace;
+    color: var(--third);
+    text-shadow: 0.3rem 0.3rem 0.3rem var(--shadow);
 }
 
 /* spotlight image */
 #spotlight-image{
+    margin-top: 50%;
+    margin-right:auto;
+    margin-left:auto;
     display:block;
     width:60%
 }
